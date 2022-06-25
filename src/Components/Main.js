@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header.js";
 import styled from 'styled-components';
-import backgroundTitle from '../Assests/BackgroundTitle.png';
-import RedVelvetCake from '../Assests/Cake.png';
-import NeapolitanPizza from '../Assests/Pizza.png';
-import PeanutButter from '../Assests/Peanut.png';
+import backgroundTitle from '../Assets/BackgroundTitle.png';
+import RedVelvetCake from '../Assets/Cake.png';
+import NeapolitanPizza from '../Assets/Pizza.png';
+import PeanutButter from '../Assets/Peanut.png';
 
 const TitleAndMenu = styled.section`
 background-image:url('${backgroundTitle}');
