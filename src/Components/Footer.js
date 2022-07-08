@@ -85,37 +85,38 @@ const CopyrightText = styled.p`
 color: white;
 `
 
-const SocialAndRoutes = () =>{
-    return(
-        <FooterSection>
-            <SocialMediaBox>
-                <SocialIcon src={InstaIcon} alt="Ícone do Instagram"/>
-                <SocialIcon src={TwitterIcon} alt="Ícone do Twitter"/>
-                <SocialIcon src={FaceIcon} alt="Ícone do Facebook"/>
-                <SocialIcon src={PintIcon} alt="Ícone do Pinterest"/>
-            </SocialMediaBox>
-            <Pages>
-                <PagesList>
-                    <ListItem>ABOUT</ListItem>
-                    <ListItem>RECIPES</ListItem>
-                    <ListItem>SUBSCRIBE</ListItem>
-                </PagesList>
-            </Pages>
-        </FooterSection>
-    )
-}
-
-const Copyright = () => {
-    return(
-        <CopyrightSection>
-            <CopyrightText>
-            Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/
-            </CopyrightText>
-        </CopyrightSection>
-    )
-}
-
 export default function Footer(){
+
+    const SocialAndRoutes = () =>{
+        return(
+            <FooterSection>
+                <SocialMediaBox>
+                    <SocialIcon src={InstaIcon} alt="Ícone do Instagram"/>
+                    <SocialIcon src={TwitterIcon} alt="Ícone do Twitter"/>
+                    <SocialIcon src={FaceIcon} alt="Ícone do Facebook"/>
+                    <SocialIcon src={PintIcon} alt="Ícone do Pinterest"/>
+                </SocialMediaBox>
+                <Pages>
+                    <PagesList>
+                        <ListItem>ABOUT</ListItem>
+                        <ListItem>RECIPES</ListItem>
+                        <ListItem>SUBSCRIBE</ListItem>
+                    </PagesList>
+                </Pages>
+            </FooterSection>
+        )
+    }
+    
+    const Copyright = () => {
+        return(
+            <CopyrightSection>
+                <CopyrightText>
+                Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/
+                </CopyrightText>
+            </CopyrightSection>
+        )
+    }
+
     return(
         <>
         <SocialAndRoutes/>
