@@ -134,35 +134,36 @@ font-size: 1vw;
    }
 `
 
-const SpoonSection = () => {
-    return(
-        <ContainerSectionSpoon>
-        <SpoonImg src={SpoonSalt} alt="Colher de Sal Grosso"/>
-        <AboutBox>
-            <AboutTitle>
-                ABOUT
-            </AboutTitle>
-            <Trace></Trace>
-            <AboutText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem, eu tincidunt libero velit sit amet velit. Nunc in euismod urna. Duis dapibus, elit eu eleifend tincidunt, nulla ipsum consectetur lorem, quis tempor lorem justo quis nisi. Nam interdum, nisi nec mollis sagittis, enim risus euismod nisi, quis rutrum quam augue id mauris. Pellentesque mattis hendrerit semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vestibulum nisl ante, et ultricies sapien facilisis aliquam.
-            </AboutText>
-        </AboutBox>
-    </ContainerSectionSpoon>
-    )
-}
-
-const SubscribeSection = () => {
-    return(
-        <ContainerSectionSubscribe>
-            <SubscribeTitle>SUBSCRIBE</SubscribeTitle>
-            <SignUpTitle>Sing up for newsletter</SignUpTitle>
-            <SubscribeInput placeholder="Your Email"></SubscribeInput>
-            <SubmitBttn>SUBMIT</SubmitBttn>
-        </ContainerSectionSubscribe>
-    )
-}
-
 export default function Main2(){
+
+    const SpoonSection = () => {
+        return(
+            <ContainerSectionSpoon>
+            <SpoonImg src={SpoonSalt} alt="Colher de Sal Grosso"/>
+            <AboutBox>
+                <AboutTitle>
+                    ABOUT
+                </AboutTitle>
+                <Trace></Trace>
+                <AboutText>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem, eu tincidunt libero velit sit amet velit. Nunc in euismod urna. Duis dapibus, elit eu eleifend tincidunt, nulla ipsum consectetur lorem, quis tempor lorem justo quis nisi. Nam interdum, nisi nec mollis sagittis, enim risus euismod nisi, quis rutrum quam augue id mauris. Pellentesque mattis hendrerit semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vestibulum nisl ante, et ultricies sapien facilisis aliquam.
+                </AboutText>
+            </AboutBox>
+        </ContainerSectionSpoon>
+        )
+    }
+    
+    const SubscribeSection = () => {
+        return(
+            <ContainerSectionSubscribe>
+                <SubscribeTitle>SUBSCRIBE</SubscribeTitle>
+                <SignUpTitle>Sing up for newsletter</SignUpTitle>
+                <SubscribeInput placeholder="Your Email"></SubscribeInput>
+                <SubmitBttn>SUBMIT</SubmitBttn>
+            </ContainerSectionSubscribe>
+        )
+    }
+    
     return(
         <>
         <SpoonSection/>
